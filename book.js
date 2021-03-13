@@ -33,7 +33,7 @@ var firebaseConfig = {
   
     // Save message
     saveMessage(name, phone, pickup, drop, date, ser, cars);
-   alert("You're Booking has been submitted.Soon we'll contact you Or You can contact us on whatsapp anytime.");
+   //alert("You're Booking has been submitted.Soon we'll contact you Or You can contact us on whatsapp anytime.");
     // Show alert
     document.querySelector('.alert').style.display = 'block';
     
