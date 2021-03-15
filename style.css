@@ -1,10 +1,4 @@
-/* Template Name: UrbanHouse HTML5 Template
-* Author: Envalab
-* Author URI: http://envalab.com/
-* Author Email: envalabteam@gmail.com 
-* Description: UrbanHouse is a business HTML5 template for construction, building companies and those that offer building services. This template is the perfect solution for you because is a clean and modern template and contain 9 HTML files. All the files are easy to edit and well Documented.
-*/
-/*==========================================
+
 * TABLE OF CONTENTS
 * =========================================== */
 /*
@@ -42,6 +36,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   scroll-behavior: smooth;
+  background-color: #C9D6FF;
 }
 .float{
 	position:fixed;
@@ -61,6 +56,8 @@ body {
 .my-float{
 	margin-top:16px;
 }
+
+
 
 .float1{
 	position:fixed;
@@ -120,7 +117,7 @@ h6 {
 p,
 li,
 a {
-  color: #6675a1;
+  color: #000000;
 }
 
 img {
@@ -136,7 +133,11 @@ ul {
   margin: 0;
   list-style-position: inside;
 }
-
+.box-shadow {
+  -webkit-box-shadow: 0px 10px 22px rgba(0, 0, 0, 0.50);
+          box-shadow: 0px 10px 22px rgba(0, 0, 0, 0.50);
+        border-radius: 25px;
+        }
 /*============================================
 * 02.1 Addons Styles
 * ============================================ */
